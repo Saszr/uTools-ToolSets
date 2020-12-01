@@ -1,0 +1,14 @@
+{
+  "name": "uTools-ToolSets",
+  "version": "0.1.0",
+  "description": "low-code vue GUI  ",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "uTools",
+    "ToolSets"
+  ],
+  "author": "saszrlsh@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/Saszr/uTools-ToolSets#readme"
+}
