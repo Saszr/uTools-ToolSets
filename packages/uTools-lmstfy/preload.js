@@ -46,4 +46,19 @@ window.exports = {
       placeholder: '搜索',
     },
   },
+  'lmstfy-baidu': {
+    mode: 'none',
+    args: {
+      enter: (action) => {
+        const { payload } = action;
+        let itemData = {
+          url: 'https://lmstfy.net/baidu/?q=',
+          searchValue: payload,
+        };
+        window.utools.hideMainWindow();
+        lmstfy(itemData);
+        window.utools.outPlugin();
+      },
+    },
+  },
 };

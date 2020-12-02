@@ -2,15 +2,25 @@
   "pluginName": "让我帮你搜索",
   "description": "为什么不问问神奇海螺呢？",
   "preload": "preload.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Saszr",
   "logo": "logo.png",
-  "homepage": "https://github.com/Saszr/uTools-lmstfy",
+  "homepage": "https://github.com/Saszr/uTools-ToolSets",
   "features": [
     {
       "code": "lmstfy",
       "explain": "为什么不问问神奇海螺呢？",
       "cmds": ["lmstfy", "让我帮你搜索"]
+    },
+    {
+      "code": "lmstfy-baidu",
+      "explain": "生成使用百度搜索🔍的教学链接",
+      "cmds": [
+        {
+          "type": "over",
+          "label": "让我帮你用百度搜索"
+        }
+      ]
     }
   ]
 }
