@@ -1,0 +1,10 @@
+{
+  "name": "utools-tool-sets",
+  "version": "0.1.0",
+  "description": "uTools工具插件集合🔧",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Saszr",
+  "license": "MIT",
+  "homepage": "https://github.com/Saszr/uTools-ToolSets#readme"
+}
