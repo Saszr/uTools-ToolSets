@@ -6,21 +6,21 @@ const SearchList = (params) => {
       title: 'Google',
       description: '让我帮你谷歌一下',
       icon: './img/google.png',
-      url: 'https://lmstfy.net/?q=',
+      url: 'https://www.lmstfy.icu/Google/?q=',
       searchValue: params,
     },
     {
       title: '百度',
       description: '让我帮你百度一下',
       icon: './img/baidu.png',
-      url: 'https://lmstfy.net/baidu/?q=',
+      url: 'https://www.lmstfy.icu/Baidu/?q=',
       searchValue: params,
     },
     {
       title: '必应',
       description: '让我帮你必应一下',
       icon: './img/bing.png',
-      url: 'https://lmstfy.net/bing/?q=',
+      url: 'https://www.lmstfy.icu/Bing/?q=',
       searchValue: params,
     },
   ];
@@ -52,7 +52,7 @@ window.exports = {
       enter: (action) => {
         const { payload } = action;
         let itemData = {
-          url: 'https://lmstfy.net/baidu/?q=',
+          url: 'https://www.lmstfy.icu/Baidu/?q=',
           searchValue: payload,
         };
         window.utools.hideMainWindow();
