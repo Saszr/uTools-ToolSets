@@ -1,7 +1,9 @@
+const { Base64 } = require('./base64.min');
+
 const lmstfy = (params) => {
   const { url, searchValue } = params;
 
-  const targetValue = encodeURIComponent(searchValue);
+  const targetValue = Base64.encode(searchValue);
   const targetUrl = url + targetValue;
 
   window.utools.copyText(targetUrl);
